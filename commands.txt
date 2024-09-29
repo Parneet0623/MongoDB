@@ -1,0 +1,12 @@
+Commands in CMD
+
+> db.collection.insertOne({"firstname" : "Parneet", "lastname" : "Kaur"})
+> db.collection.insertMany([{"firstname" : "Parneet1", "lastname" : "Kaur1"}, {"firstname" : "Parneet2", "lastname" : "Kaur2", "age" : "25"}])
+
+
+> db.collection.find()
+db.collection.find({"firstname" : "Parneet"})
+
+
+
+pip install pymongo
